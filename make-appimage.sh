@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/128x128/apps/makemkv.png
 export DESKTOP=/usr/share/applications/makemkv.desktop
 
 # Deploy dependencies
-quick-sharun /usr/share/makemkv
+quick-sharun /usr/share/makemkv usr/share/ffmpeg
 
 # Additional changes can be done in between here
 
