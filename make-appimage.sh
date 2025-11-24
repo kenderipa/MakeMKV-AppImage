@@ -12,7 +12,13 @@ export ICON=/usr/share/icons/hicolor/128x128/apps/makemkv.png
 export DESKTOP=/usr/share/applications/makemkv.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/makemkv /usr/bin/ffmpeg
+quick-sharun \
+    /usr/bin/makemkv \
+    /usr/bin/makemkvcon \
+    /usr/share/makemkv \
+    /usr/lib/libmakemkv.so.1 \
+    /usr/lib/libdriveio.so.0 \
+    /usr/lib/libmmbd.so.0
 
 # Additional changes can be done in between here
 
